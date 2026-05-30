@@ -129,39 +129,38 @@ footer{background:var(--panel);border-top:1px solid var(--border);padding:4rem 7
 <nav>
   <a class="nav-brand" href="index.html"><em>Rowdy</em> Real Estate</a>
   <ul class="nav-links">
-    <li><a href="index.html" style="color:var(--acc);">Home</a></li>
+    <li><a href="index.html">Home</a></li>
     <li><a href="services.html">Services</a></li>
     <li><a href="gallery.html">Gallery</a></li>
     <li><a href="about.html">About</a></li>
     <li><a href="location.html">Location</a></li>
-    <li><a href="contact.html">Contact</a></li></ul>
+    <li><a href="contact.html" style="color:var(--acc);">Contact</a></li></ul>
 </nav>
 
-<section id="hero">
-  <div class="hero-img"></div>
-  <div class="hero-overlay"></div>
-  <div class="hero-content">
-    <h1 class="hero-title">Rowdy<span>Real Estate</span></h1>
-    <p class="hero-sub">Buying, selling, investing — we know this market and we fight for your best deal every time.</p>
-    <div class="hero-cta">
-      <a href="#booking" class="btn-primary">Talk to an Agent</a>
-      <a href="#services" class="btn-outline">What We Do</a>
+<section id="booking" class="sec">
+  <div class="booking-layout">
+    <div class="booking-aside reveal">
+      <p class="sec-label">Connect</p>
+      <h2 class="sec-title">Let's Talk<br>Real Estate</h2>
+      <p style="font-size:14px;color:rgba(237,232,240,0.42);line-height:1.75;">Whether you're buying, selling, or investing — reach out and let's figure out your best move.</p>
+      <div class="booking-photo">
+        <div class="booking-photo-label"><p>Based Outta</p><strong>Indiana · Buy · Sell · Invest</strong></div>
+      </div>
+    </div>
+    <div class="reveal d1">
+      <div class="form-grid">
+        <div class="field"><label>First Name</label><input type="text" placeholder="John"></div>
+        <div class="field"><label>Last Name</label><input type="text" placeholder="Smith"></div>
+        <div class="field"><label>Phone</label><input type="tel" placeholder="(765) 000-0000"></div>
+        <div class="field"><label>Email</label><input type="email" placeholder="you@email.com"></div>
+        <div class="field"><label>I Want To</label><select><option value="">Select...</option><option>Buy a Home</option><option>Sell My Home</option><option>Buy an Investment Property</option><option>Commercial Transaction</option><option>Buy Land / Lot</option><option>Property Management</option><option>Just Exploring</option></select></div>
+        <div class="field"><label>Timeline</label><select><option value="">Select...</option><option>ASAP</option><option>1–3 Months</option><option>3–6 Months</option><option>6–12 Months</option><option>Just Looking</option></select></div>
+        <div class="field full"><label>Tell Us More</label><textarea placeholder="Area of interest, price range, property type, any questions..."></textarea></div>
+        <div class="field full"><button class="btn-primary" style="width:100%;text-align:center;border:none;" onclick="this.textContent='Request Sent ✓';this.style.background='#22c55e';setTimeout(()=>{this.textContent='Talk to an Agent';this.style.background=''},3000)">Talk to an Agent</button></div>
+      </div>
     </div>
   </div>
-  <div class="hero-badge">
-    <svg viewBox="0 0 150 150">
-      <defs><path id="cp" d="M75,75 m-55,0 a55,55 0 1,1 110,0 a55,55 0 1,1 -110,0"/></defs>
-      <text font-family="Barlow Condensed,sans-serif" font-size="10.5" font-weight="600" letter-spacing="3" fill="#8b5cf6"><textPath href="#cp">INDIANA · REAL ESTATE · </textPath></text>
-    </svg>
-    <span class="hero-badge-inner">RD</span>
-  </div>
-  <div class="scroll-hint">Scroll</div>
 </section>
-
-<div class="ticker-wrap"><div class="ticker-inner">
-  <span>Home Buying</span><span class="sep">✦</span><span>Home Selling</span><span class="sep">✦</span><span>Investment Properties</span><span class="sep">✦</span><span>Commercial</span><span class="sep">✦</span><span>Land &amp; Lots</span><span class="sep">✦</span><span>Property Management</span><span class="sep">✦</span>
-  <span>Home Buying</span><span class="sep">✦</span><span>Home Selling</span><span class="sep">✦</span><span>Investment Properties</span><span class="sep">✦</span><span>Commercial</span><span class="sep">✦</span><span>Land &amp; Lots</span><span class="sep">✦</span><span>Property Management</span><span class="sep">✦</span>
-</div></div>
 
 <footer>
   <div class="footer-top">
